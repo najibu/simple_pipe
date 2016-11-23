@@ -1,24 +1,6 @@
-# README
+# Simplepipe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Functionality
+Multi-tenancy allows each company to have it's very own separate database to store its users and contacts. It also has it's very own subdomain like codeplace.simplepipe.xyz .
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Thank you for checking out simple_pipe app.
