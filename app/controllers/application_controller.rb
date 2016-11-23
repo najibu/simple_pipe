@@ -8,8 +8,7 @@ class ApplicationController < ActionController::Base
       Apartment::Database.switch('public')
       return unless request.subdomain.present?
 
-      account = Account.find_by(subdomain: request.subdomain)
-      if account
+      if current_account
         Apartment::Database.switch(account.subdomain)
       else
         redirect_to root_url(subdomain: false)

@@ -55,3 +55,7 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'apartment'
+
+gem 'dotenv-rails'
+
+gem 'devise_invitable', '~> 1.7.0'
